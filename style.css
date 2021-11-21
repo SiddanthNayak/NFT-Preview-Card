@@ -28,10 +28,16 @@ body{
     border-radius: 0.4em;
 }
 
-.container .card_picture:hover{
+.card_picture:hover{
     cursor: pointer;
     content: url(./images/icon-view.svg);
-    background-color: hsl(178, 100%, 50%);
+    width: 100%;
+}
+
+.overlay:hover{
+    background-color: hsl(178, 100%, 50% ,0.4);
+    height: 15em;
+    border-radius: 0.4em;
 }
 
 .details{

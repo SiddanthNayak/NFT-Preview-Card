@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0em;
+    padding: 0em;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(0, 0%, 100%);
+    padding: 4em 1em;
+}
+
+.container{
+    width: 100%;
+    background-color: hsl(216, 50%, 16%);
+    padding: 1.4em;
+    border-radius: 0.8em;
+    margin-bottom: 1em;
+}
+
+.container .card_picture{
+    background: url(./images/image-equilibrium.jpg) no-repeat center/cover;
+    height: 15em;
+    border-radius: 0.4em;
+}
+
+.details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 1em;
+}
+
+.description h2{
+    margin: 1em 0em 0.5em 0em;
+}
+
+.soft-blue{
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    margin-bottom: 1em;
+    line-height: 1.5em;
+}
+
+.time{
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+.price{
+    color: hsl(178, 100%, 50%);
+    margin-right: 4em;
+    font-weight: 600;
+}
+
+.time::before{
+    content: url(./images/icon-clock.svg);
+    margin-right: .5em;
+}
+
+.price::before{
+    content: url(./images/icon-ethereum.svg);
+    margin-right: .5em;
+}
+
+.line{
+    width: 100%;
+    height: .1em;
+    background-color: hsl(215, 32%, 27%);
+    margin-bottom: 1em;
+}
+
+.creator{
+    display: flex;
+}
